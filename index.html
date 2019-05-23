@@ -19,7 +19,7 @@
         </h4>
         <div class="video-container">
             <iframe width="853" height="480"
-                src="https://drive.google.com/uc?export=view&id=16y0B5zu0cp16_W3EC912H6RoTwpGEcdS*" frameborder="0"
+                src="https://drive.google.com/uc?export=view&id=16y0B5zu0cp16_W3EC912H6RoTwpGEcdS" frameborder="0"
                 allowfullscreen></iframe>
         </div>
 
@@ -201,17 +201,17 @@
                     Para usar las librerías del servomotor y el ultrasónico primero se tienen que importar. Ésto añade
                     nuevas funciones al programa desde las librerías.
                 </p>
-                <h6 class="orange-text text-darken-4">Crear el objeto Servo</h6>
-                <p> Para referirse a la librería servo, es necesario crear un nombre de esta librería en una variable
-                    (boca). Esto se conoce con el nombre de un objeto. Cuando se hace esto, se crea un nombre único que
-                    tendrá todas las funciones y capacidades que la librería servo posee. A partir de este punto en el
-                    programa, cada vez que se utilice el nombre "boca", se podrán usar todas esas funciones y
-                    capacidades de la librería servo.
+                <h6 class="orange-text text-darken-4">Crear los objetos</h6>
+                <p> Para referirse a la librería HCSR04 es necesario crear un nombre de esta librería en una variable
+                    (distancia); Lo mismo se necesita para la librería Servo (boca). Esto se conoce con el nombre de un
+                    objeto. Cuando se hace esto, se crea un nombre único que tendrá todas las funciones y capacidades
+                    que la librería posee. A partir de este punto en el programa, cada vez que se utilice el nombre
+                    "distancia" o "boca", se podrán usar todas las funciones y capacidades de las dos librerías según
+                    sea la variable.
                 </p>
                 <h6 class="orange-text text-darken-4">Crear variables</h6>
                 <p>
-                    Se necesitan crear las variables para referirse a los pines que estarán conectados al RGB y al
-                    ultrasónico, así como para referirnos a la distancia.
+                    Se necesitan crear las variables para referirse a los pines que estarán conectados al RGB.
                 </p>
                 <br>
                 <h6 class="orange-text text-darken-4">Declarar los pines</h6>
@@ -242,6 +242,7 @@
                     <br>
                     <br>
                     <br>
+                    <br>
                     <lu><textarea name="" id="linea1" cols="30" rows="20"></textarea></lu>
                     <br>
                     <br>
@@ -251,10 +252,12 @@
                     <lu><textarea name="" id="linea2" cols="30" rows="20"></textarea></lu>
                     <br>
                     <br>
+                    <br>
                     <span class="blue-text text-darken-2">void</span> <span
                         class="light-green-text text-darken-4">setup</span>(){
                     <lu><textarea name="" id="linea3" cols="30" rows="20"></textarea></lu>
                     }
+                    <br>
                     <br>
                     <br>
                     <br>
